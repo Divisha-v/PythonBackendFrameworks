@@ -1,0 +1,26 @@
+Synchronous HTTP Communication
+
+Advantages
+-------------
+Simple
+Easy to debug
+Immediate response
+
+Disadvantages
+----------------
+Services are tightly coupled
+Failure of one service affects another
+Higher latency
+
+Asynchronous Messaging
+
+Advantages
+-------------
+Loose coupling
+Better scalability
+More resilient
+
+Disadvantages
+----------------
+More infrastructure
+More complex debugging

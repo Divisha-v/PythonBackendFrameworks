@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Student List</h1>
+
+{% if students %}
+
+{% for student in students %}
+
+<h2>{{ student }}</h2>
+
+{% endfor %}
+
+{% else %}
+
+<h2>no students found</h2>
+
+{% endif %}
+
+{% endblock %}
+
+</body>
+
+</html>
